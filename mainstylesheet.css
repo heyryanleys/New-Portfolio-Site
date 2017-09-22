@@ -125,18 +125,38 @@ body {
   background-color: #02ADD9;
 }
 
+#tile2back{
+  background-color: #7cd6ea;
+}
+
 #tile3front{
   background-color: #54DB40;
+}
+
+#tile3back{
+  background-color: #65f288;
 }
 
 #tile4front{
   background-color: #FF9830;
 }
 
+#tile4back{
+  background-color: #f4a665
+}
+
 #tile5front{
   background-color: #A10EEC;
 }
 
+#tile5back{
+  background-color: #cc91ef;
+}
+
 #tile6front{
   background-color: #4c4c4c;
+}
+
+#tile6back{
+  background-color: #9e9e9e;
 }
