@@ -1,40 +1,103 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Welcome!</title>
-    <link rel="stylesheet" type="text/css" href="mainstylesheet.css">
-  </head>
-  <body>
-    <div class="container">
-      <table class="maintable">
-        <tbody>
-          <tr>
-            <td>
-              <div class="tile1"> Web Design </div>
-            </td>
-            <td>
-              <div class="tile2"> CSS Animations </div>
-            </td>
-          </tr>
+
+<head>
+  <meta charset="utf-8">
+  <title>Welcome!</title>
+  <link rel="stylesheet" type="text/css" href="mainstylesheet.css">
+</head>
+
+<body>
+  <div class="container">
+    <table class="maintable">
+      <tbody>
         <tr>
           <td>
-            <div class="tile3"> Graphic Design </div>
+            <div class="tilecontainer" ontouchstart="this.classList.toggle('hover');">
+              <div class="tileflipper">
+                <div id="tile1front">
+                  <div class="content">
+                    <div class="icon"><img src="images/placeholderimage.png" /></div>
+                    <div class="headline">Web Design</div>
+                  </div>
+                </div>
+                <div id="tile1back">
+                  <div class="content">
+                    <div class="icon"><img src="images/placeholderimage.png" /></div>
+                    <div class="headline">Hello!</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </td>
           <td>
-            <div class="tile4"> Video Production </div>
+            <div class="tilecontainer" ontouchstart="this.classList.toggle('hover');">
+              <div class="tileflipper">
+                <div class="flips" id="tile2front">
+                  <div class="content">
+                    <div class="icon"><img src="images/placeholderimage.png" /></div>
+                    <div class="headline">CSS Animations</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </td>
         </tr>
         <tr>
           <td>
-            <div class="tile5"> Coursework </div>
+            <div class="tilecontainer" ontouchstart="this.classList.toggle('hover');">
+              <div class="tileflipper">
+                <div class="flips" id="tile3front">
+                  <div class="content">
+                    <div class="icon"><img src="images/placeholderimage.png" /></div>
+                    <div class="headline">Graphic Design</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </td>
           <td>
-            <div class="tile6"> About Ryan </div>
+            <div class="tilecontainer" ontouchstart="this.classList.toggle('hover');">
+              <div class="tileflipper">
+                <div class="flips" id="tile4front">
+                  <div class="content">
+                    <div class="icon"><img src="images/placeholderimage.png" /></div>
+                    <div class="headline">Video Production</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </td>
         </tr>
-        </tbody>
-      </table>
-    </div>
-  </body>
+        <tr>
+          <td>
+            <div class="tilecontainer" ontouchstart="this.classList.toggle('hover');">
+              <div class="tileflipper">
+                <div class="flips" id="tile5front">
+                  <div class="content">
+                    <div class="icon"><img src="images/placeholderimage.png" /></div>
+                    <div class="headline">Coursework</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="tilecontainer" ontouchstart="this.classList.toggle('hover');">
+              <div class="tileflipper">
+                <div class="flips" id="tile6front">
+                  <div class="content">
+                    <div class="icon"><img src="images/placeholderimage.png" /></div>
+                    <div class="headline">About Ryan</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+
 </html>
