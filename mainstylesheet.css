@@ -1,5 +1,6 @@
 body {
   background-color: #FEE819;
+  font-family: Helvetica;
 }
 
 .container {
@@ -8,14 +9,24 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 600px;
-  height: 900px;
+  height: auto
+}
+
+.header{
+  font-size: 90px;
+  color: #FF1685;
+  background-color: #FEE819;
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: 900;
 }
 
 .tilecontainer{
   perspective: 1000px;
 }
 
-.tilecontainer:hover .tileflipper{
+.tilecontainer:hover .tileflipper,
+.tilecontainer.flipped .tileflipper{
   transform: rotateY(180deg);
 }
 
@@ -105,7 +116,6 @@ body {
 .content{
   padding-top: 30%;
   color: white;
-  font-family: Helvetica;
 }
 
 #tile1front{
