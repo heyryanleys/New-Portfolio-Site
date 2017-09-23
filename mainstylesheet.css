@@ -15,6 +15,13 @@ body,
   left: 74%;
   top: 10%;
   transform: rotate(-20deg);
+  transition: all 1.5s ease-in;
+  z-index: -1;
+}
+
+.tentacle1.scrolled{
+  left: 70%;
+  top: 13%;
 }
 
 .container {
