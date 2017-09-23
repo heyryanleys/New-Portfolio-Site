@@ -41,18 +41,18 @@ body {
   position: relative;
 }
 
-#tile1front,
-#tile1back,
-#tile2front,
-#tile2back,
-#tile3front,
-#tile3back,
-#tile4front,
-#tile4back,
-#tile5front,
-#tile5back,
-#tile6front,
-#tile6back{
+.tile1front,
+.tile1back,
+.tile2front,
+.tile2back,
+.tile3front,
+.tile3back,
+.tile4front,
+.tile4back,
+.tile5front,
+.tile5back,
+.tile6front,
+.tile6back{
   backface-visibility: hidden;
   position: absolute;
   top: 0;
@@ -76,12 +76,12 @@ body {
   padding: 0px;
 }
 
-#tile1front,
-#tile2front,
-#tile3front,
-#tile4front,
-#tile5front,
-#tile6front{
+.tile1front,
+.tile2front,
+.tile3front,
+.tile4front,
+.tile5front,
+.tile6front{
   height: 300px;
   width: 300px;
   outline: 0px solid #eee;
@@ -89,12 +89,12 @@ body {
   transform: rotateY(0deg);
 }
 
-#tile1back,
-#tile2back,
-#tile3back,
-#tile4back,
-#tile5back,
-#tile6back{
+.tile1back,
+.tile2back,
+.tile3back,
+.tile4back,
+.tile5back,
+.tile6back{
   height: 300px;
   width: 300px;
   outline: 0px solid #eee;
@@ -102,15 +102,23 @@ body {
 }
 
 
-#tile1front:hover,
-#tile2front:hover,
-#tile3front:hover,
-#tile4front:hover,
-#tile5front:hover,
-#tile6front:hover{
+.tile1front:hover,
+.tile2front:hover,
+.tile3front:hover,
+.tile4front:hover,
+.tile5front:hover,
+.tile6front:hover{
   outline: 2px solid white;
   opacity: 30%;
   transition: .1s ease-in
+}
+
+.tile2fronttest{
+  transform: rotateY(180deg);
+  height: 300px;
+  width: 300px;
+  outline: 0px solid #eee;
+  transition: .3s ease-in;
 }
 
 .content{
@@ -118,11 +126,11 @@ body {
   color: white;
 }
 
-#tile1front{
+.tile1front{
   background-color: #FF1685;
 }
 
-#tile1back{
+.tile1back{
   background-color: #ef88b8;
 }
 
@@ -131,43 +139,43 @@ body {
   height: 25%;
 }
 
-#tile2front{
+.tile2front{
   background-color: #02ADD9;
 }
 
-#tile2back{
+.tile2back{
   background-color: #7cd6ea;
 }
 
-#tile3front{
+.tile3front{
   background-color: #54DB40;
 }
 
-#tile3back{
+.tile3back{
   background-color: #65f288;
 }
 
-#tile4front{
+.tile4front{
   background-color: #FF9830;
 }
 
-#tile4back{
+.tile4back{
   background-color: #f4a665
 }
 
-#tile5front{
+.tile5front{
   background-color: #A10EEC;
 }
 
-#tile5back{
+.tile5back{
   background-color: #cc91ef;
 }
 
-#tile6front{
+.tile6front{
   background-color: #4c4c4c;
 }
 
-#tile6back{
+.tile6back{
   background-color: #9e9e9e;
 }
 
