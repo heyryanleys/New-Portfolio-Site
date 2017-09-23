@@ -8,6 +8,15 @@ body,
   background-color: #FEE819;
 }
 
+.tentacle1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 74%;
+  top: 10%;
+  transform: rotate(-20deg);
+}
+
 .container {
   display: block;
   margin-left: auto;
@@ -48,12 +57,17 @@ body,
 .tilecontainer:hover .tileflipper,
 .tilecontainer.flipped .tileflipper{
   transform: rotateY(180deg);
+  transition: 0.6s;
+  transform-style: preserve-3d;;
+  position: relative;
+  transition-delay: 0s;
 }
 
 .tileflipper{
   transition: 0.6s;
   transform-style: preserve-3d;;
   position: relative;
+  transition-delay: .3s;
 }
 
 .tilecontainer{
